@@ -5,5 +5,5 @@
       apt:
         name: telnet
         state: present
-        #
+      become: yes 
 ...
