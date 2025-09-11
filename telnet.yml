@@ -6,4 +6,10 @@
         name: telnet
         state: present
       become: yes 
+      register: telnet_install 
+
+    - name: comment on telnet installation
+      debug:
+        msg: "telnet is not installed"
+      when: telnet_install is changed   
 ...
