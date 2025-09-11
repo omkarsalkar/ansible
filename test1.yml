@@ -1,6 +1,10 @@
 - name: install telnet
   hosts: localhost
   tasks:
+    
+    - name: update apt repository
+      shell: sudo apt-get update -y
+
     - name: install telnet
       apt:
         name: telnet
