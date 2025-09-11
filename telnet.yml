@@ -1,8 +1,0 @@
-- name: install telnet
-  hosts: localhost
-  tasks:
-    - name: install telnet
-      apt:
-        name: telnet
-        state: present
-...
