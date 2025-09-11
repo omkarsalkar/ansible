@@ -16,5 +16,4 @@
         msg: "telnet is not installed"
       when: telnet_install.changed
 
-      #new update in development branch
-
+      #new update from testbranch to development branch
