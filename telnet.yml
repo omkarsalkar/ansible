@@ -5,5 +5,4 @@
       apt:
         name: telnet
         state: present
-        #
 ...
